@@ -217,7 +217,7 @@ Run the code below to see what this basic histogram in ggplot looks like:
 
 <!---LEARNR EX 1-->
 
-<iframe class="interactive" id="myIframe1" src="https://tinystats.shinyapps.io/02-bellCurve-ex1/" scrolling="no" frameborder="no"></iframe>
+<iframe class="interactive" id="myIframe1" src="https://biouea.shinyapps.io/02-bellCurve-ex1/" scrolling="no" frameborder="no"></iframe>
 
 <!------------->
 
@@ -246,7 +246,7 @@ In the window below, we have added some options that you can play around with. U
 
 <!---LEARNR EX 2-->
 
-<iframe class="interactive" id="myIframe2" src="https://tinystats.shinyapps.io/02-bellCurve-ex2/" scrolling="no" frameborder="no"></iframe>
+<iframe class="interactive" id="myIframe2" src="https://biouea.shinyapps.io/02-bellCurve-ex2/" scrolling="no" frameborder="no"></iframe>
 
 <!------------->
 
@@ -266,7 +266,7 @@ knitr::include_graphics("images/02_bellCurve/Painter.png")
 
 <!---LEARNR EX 3-->
 
-<iframe class="interactive" id="myIframe3" src="https://tinystats.shinyapps.io/02-bellCurve-ex3/" scrolling="no" frameborder="no"></iframe>
+<iframe class="interactive" id="myIframe3" src="https://biouea.shinyapps.io/02-bellCurve-ex3/" scrolling="no" frameborder="no"></iframe>
 
 <!------------->
 
@@ -306,7 +306,7 @@ Use the window below to:
 
 <!---LEARNR EX 4-->
 
-<iframe class="interactive" id="myIframe4" src="https://tinystats.shinyapps.io/02-bellCurve-ex4/" scrolling="no" frameborder="no"></iframe>
+<iframe class="interactive" id="myIframe4" src="https://biouea.shinyapps.io/02-bellCurve-ex4/" scrolling="no" frameborder="no"></iframe>
 
 <!------------->
 
@@ -319,7 +319,7 @@ Use the window below to:
 
 <!---LEARNR EX 5-->
 
-<iframe class="interactive" id="myIframe5" src="https://tinystats.shinyapps.io/02-bellCurve-ex5/" scrolling="no" frameborder="no"></iframe>
+<iframe class="interactive" id="myIframe5" src="https://biouea.shinyapps.io/02-bellCurve-ex5/" scrolling="no" frameborder="no"></iframe>
 
 <!------------->
 
@@ -332,7 +332,7 @@ To change the legend background to be transparent, we essentially remove it. Add
 
 <!---LEARNR EX 6-->
 
-<iframe class="interactive" id="myIframe6" src="https://tinystats.shinyapps.io/02-bellCurve-ex6/" scrolling="no" frameborder="no"></iframe>
+<iframe class="interactive" id="myIframe6" src="https://biouea.shinyapps.io/02-bellCurve-ex6/" scrolling="no" frameborder="no"></iframe>
 
 <!------------->
 

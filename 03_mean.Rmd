@@ -156,7 +156,7 @@ Use the interactive window below to calculate the mean "by hand".
 
 <!---LEARNR EX 1-->
 
-<iframe class="interactive" id="myIframe1" src="https://tinystats.shinyapps.io/03-mean-ex1/" scrolling="no" frameborder="no"></iframe>
+<iframe class="interactive" id="myIframe1" src="https://biouea.shinyapps.io/03-mean-ex1/" scrolling="no" frameborder="no"></iframe>
 
 <!------------->
 
@@ -167,7 +167,7 @@ Now it's your turn to write your own function. Call it "my_mean" and have it cal
 
 <!---LEARNR EX 2-->
 
-<iframe class="interactive" id="myIframe2" src="https://tinystats.shinyapps.io/03-mean-ex2/" scrolling="no" frameborder="no"></iframe>
+<iframe class="interactive" id="myIframe2" src="https://biouea.shinyapps.io/03-mean-ex2/" scrolling="no" frameborder="no"></iframe>
 
 <!------------->
 
@@ -223,7 +223,7 @@ An `if...else` statement is useful when you want to specify distinct outcomes fo
 
 <!---LEARNR EX 3-->
 
-<iframe class="interactive" id="myIframe3" src="https://tinystats.shinyapps.io/03-mean-ex3/" scrolling="no" frameborder="no"></iframe>
+<iframe class="interactive" id="myIframe3" src="https://biouea.shinyapps.io/03-mean-ex3/" scrolling="no" frameborder="no"></iframe>
 
 <!------------->
 
@@ -233,7 +233,7 @@ Now that you have a sense for how the `%%` operator can be used to test whether 
 
 <!---LEARNR EX 4-->
 
-<iframe class="interactive" id="myIframe4" src="https://tinystats.shinyapps.io/03-mean-ex4b/" scrolling="no" frameborder="no"></iframe>
+<iframe class="interactive" id="myIframe4" src="https://biouea.shinyapps.io/03-mean-ex4b/" scrolling="no" frameborder="no"></iframe>
 
 <!------------->
 
@@ -243,7 +243,7 @@ Remember that the sample mean is an estimate of the entire population's mean (wh
 
 Pressing 'Play' on the plot below will illustrate this concept. 
 <a name="mean_animation">
-```{r, tut=FALSE, echo=FALSE, message= FALSE, cache=TRUE}
+```{r, tut=FALSE, echo=FALSE, message= FALSE, cache=TRUE, eval=FALSE}
 library(emdbook)
 library(plotly)
 library(here)

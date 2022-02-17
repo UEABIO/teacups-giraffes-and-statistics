@@ -18,7 +18,7 @@ Now spend a few minutes using the window below as a calculator and run simple ca
 
 <!---LEARNR EX 1-->
 
-<iframe class="interactive" id="myIframe1" src="https://tinystats.shinyapps.io/01-intro-ex1/" scrolling="no" frameborder="no"></iframe>
+<iframe class="interactive" id="myIframe1" src="https://biouea.shinyapps.io/01-intro-ex1/" scrolling="no" frameborder="no"></iframe>
 
 <!------------->
 
@@ -32,7 +32,7 @@ To create a new object in R we first pick a name for the object and tell R what 
 
 <!---LEARNR EX 2-->
 
-<iframe class="interactive" id="myIframe2" src="https://tinystats.shinyapps.io/01-intro-ex2/" scrolling="no" frameborder="no"></iframe>
+<iframe class="interactive" id="myIframe2" src="https://biouea.shinyapps.io/01-intro-ex2/" scrolling="no" frameborder="no"></iframe>
 
 <!------------->
 
@@ -47,7 +47,7 @@ To use functions in R, we type the name of the function followed by parentheses 
 
 <!---LEARNR EX 3-->
 
-<iframe class="interactive" id="myIframe3" src="https://tinystats.shinyapps.io/01-intro-ex3/" scrolling="no" frameborder="no"></iframe>
+<iframe class="interactive" id="myIframe3" src="https://biouea.shinyapps.io/01-intro-ex3/" scrolling="no" frameborder="no"></iframe>
 
 <!------------->
 
@@ -68,7 +68,7 @@ Use the following instructions to complete the function in the window below:
 
 <!---LEARNR EX 4-->
 
-<iframe class="interactive" id="myIframe4" src="https://tinystats.shinyapps.io/01-intro-ex4/" scrolling="no" frameborder="no"></iframe>
+<iframe class="interactive" id="myIframe4" src="https://biouea.shinyapps.io/01-intro-ex4/" scrolling="no" frameborder="no"></iframe>
 
 <!------------->
 
@@ -102,7 +102,7 @@ Vectors are one of multiple data structures in R. We will not cover all types of
 
 <!---LEARNR EX 5-->
 
-<iframe class="interactive" id="myIframe5" src="https://tinystats.shinyapps.io/01-intro-ex5/" scrolling="no" frameborder="no"></iframe>
+<iframe class="interactive" id="myIframe5" src="https://biouea.shinyapps.io/01-intro-ex5/" scrolling="no" frameborder="no"></iframe>
 
 <!------------->
 
@@ -110,7 +110,7 @@ As you could see above, running a line of code with just the name of a data stru
 
 <!---LEARNR EX 6-->
 
-<iframe class="interactive" id="myIframe6" src="https://tinystats.shinyapps.io/01-intro-ex6/" scrolling="no" frameborder="no"></iframe>
+<iframe class="interactive" id="myIframe6" src="https://biouea.shinyapps.io/01-intro-ex6/" scrolling="no" frameborder="no"></iframe>
 
 <!------------->
 

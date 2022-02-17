@@ -121,7 +121,7 @@ ppl2 <- function(frame){
 pf <- list(lapply(seq(1, 53, 2), function(x) ppl(x)), lapply(rep(53, 3), function(x) ppl(x)), lapply(1:40, function(x) ppl2()))
 return(pf)
 }
-mclapply(1:3, function(x) ppplot(x), mc.cores = 8, mc.cleanup = TRUE)
+mclapply(1:3, function(x) ppplot(x), mc.cores = 1, mc.cleanup = TRUE)
 
 circleFun <- function(center=c(0,0), diameter=1, npoints=100, start=0, end=2, filled=TRUE){
   tt <- seq(start*pi, end*pi, length.out=npoints)
@@ -310,7 +310,7 @@ p3 <- ggplot(data = dhh[[dd+40]], aes(x = Height)) +
 
   cowplot::plot_grid(p2,p,p3, align="h",rel_widths = c(1,0.55, 1), ncol = 3)
 }
-mclapply(seq(1,300, 20), function(x) plots3(x), mc.cores = 8, mc.cleanup = TRUE)
+mclapply(seq(1,300, 20), function(x) plots3(x), mc.cores = 1, mc.cleanup = TRUE)
 
 plots3.2 <- function(dd){
 sub <- dd+40  
@@ -352,7 +352,7 @@ p3 <- ggplot(data = dhh[[dd+40]], aes(x = Height)) +
 
   cowplot::plot_grid(p2,p,p3, align="h",rel_widths = c(1,0.55, 1), ncol = 3)
 }
-mclapply(seq(301,960, 20), function(x) plots3.2(x), mc.cores = 8, mc.cleanup = TRUE)
+mclapply(seq(301,960, 20), function(x) plots3.2(x), mc.cores = 1, mc.cleanup = TRUE)
 
 x <- round(mvrnorm(50, 9.8, 2.1^2, empirical = T))
 m <- mean(x)
@@ -394,7 +394,7 @@ p3 <- ggplot(data = dhh[[dd+40]], aes(x = Height)) +
   cowplot::plot_grid(p2,p,p3, align="h",rel_widths = c(1,0.55, 1), ncol = 3)
 }
 
-mclapply(rep(960, 40), function(x) plots4(x), mc.cores = 8, mc.cleanup = TRUE)
+mclapply(rep(960, 40), function(x) plots4(x), mc.cores = 1, mc.cleanup = TRUE)
 ```
 </center>
 
@@ -498,7 +498,7 @@ In the following window, you will test the relationship between sampling distrib
 
 <!---LEARNR EX 1-->
 
-<iframe class="interactive" id="myIframe1" src="https://tinystats.shinyapps.io/06-standardError-ex1/" scrolling="no" frameborder="no"></iframe>
+<iframe class="interactive" id="myIframe1" src="https://biouea.shinyapps.io/06-standardError-ex1/" scrolling="no" frameborder="no"></iframe>
 
 <!------------->
 
@@ -512,7 +512,7 @@ To complete this exercise, you will need to use the objects `sampling_distributi
 
 <!---LEARNR EX 2-->
 
-<iframe class="interactive" id="myIframe2" src="https://tinystats.shinyapps.io/06-standardError-ex2/" scrolling="no" frameborder="no"></iframe>
+<iframe class="interactive" id="myIframe2" src="https://biouea.shinyapps.io/06-standardError-ex2/" scrolling="no" frameborder="no"></iframe>
 
 <!------------->
 
@@ -570,7 +570,7 @@ Use the window below as a calculator to see if you can figure out the equation f
 
 <!---LEARNR EX 3-->
 
-<iframe class="interactive" id="myIframe3" src="https://tinystats.shinyapps.io/06-standardError-ex3/" scrolling="no" frameborder="no"></iframe>
+<iframe class="interactive" id="myIframe3" src="https://biouea.shinyapps.io/06-standardError-ex3/" scrolling="no" frameborder="no"></iframe>
 
 <!------------->
 
@@ -585,7 +585,7 @@ Below, you will use the object `heights_island1`, which contains our single samp
 
 <!---LEARNR EX 4-->
 
-<iframe class="interactive" id="myIframe4" src="https://tinystats.shinyapps.io/06-standardError-ex4/" scrolling="no" frameborder="no"></iframe>
+<iframe class="interactive" id="myIframe4" src="https://biouea.shinyapps.io/06-standardError-ex4/" scrolling="no" frameborder="no"></iframe>
 
 <!------------->
 
@@ -606,7 +606,7 @@ Use the window below to find out and make your first inference by constructing t
 
 <!---LEARNR EX 5-->
 
-<iframe class="interactive" id="myIframe5" src="https://tinystats.shinyapps.io/06-standardError-ex5/" scrolling="no" frameborder="no"></iframe>
+<iframe class="interactive" id="myIframe5" src="https://biouea.shinyapps.io/06-standardError-ex5/" scrolling="no" frameborder="no"></iframe>
 
 <!------------->
 

@@ -78,7 +78,7 @@ Construct a scatter plot of the data using the window below:
 
 <!---LEARNR EX 1-->
 
-<iframe class="interactive" id="myIframe1" src="https://tinystats.shinyapps.io/05-correlation-ex1/" scrolling="no" frameborder="no"></iframe>
+<iframe class="interactive" id="myIframe1" src="https://biouea.shinyapps.io/05-correlation-ex1/" scrolling="no" frameborder="no"></iframe>
 
 <!------------->
 
@@ -87,7 +87,7 @@ Great, now you have a scatter plot! But recalling the email from your advisor th
 Play around with some aesthetics in the window below, and then run the solution to see what we chose. 
 
 <!---LEARNR EX 2-->
-<iframe class = "interactive" id="myIframe2" src="https://tinystats.shinyapps.io/05-correlation-ex2/
+<iframe class = "interactive" id="myIframe2" src="https://biouea.shinyapps.io/05-correlation-ex2/
 " scrolling="no" frameborder="no"></iframe>
 <!------------->
 
@@ -297,7 +297,7 @@ Imagine you're given a plot like the one below. What would you say it's correlat
 
 
 <!--------SHINY1------>
-<iframe class="interactive" src="https://tinystats.shinyapps.io/Guess_corr/?showcase=0" scrolling="no" frameborder="no"></iframe>
+<iframe class="interactive" src="https://biouea.shinyapps.io/Guess_corr/?showcase=0" scrolling="no" frameborder="no"></iframe>
 
 # Code it up
 
@@ -310,7 +310,7 @@ Remember, you will need to write both functions so that they will take two param
 
 <!--LEARNR EX 3--->
 
-<iframe class = "interactive" id="myIframe3" src="https://tinystats.shinyapps.io/05-correlation-ex3/" scrolling="no" frameborder="no"></iframe>
+<iframe class = "interactive" id="myIframe3" src="https://biouea.shinyapps.io/05-correlation-ex3/" scrolling="no" frameborder="no"></iframe>
 
 <!----------->
 
